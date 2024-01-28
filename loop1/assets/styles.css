@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(84, 131, 192);
+    font-family: 'Roboto' sans-serif serif;
 }
 
 .container{
@@ -15,7 +16,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -24,12 +25,23 @@ body{
 .container section{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    align-items: stretch;
-    gap: 20p;
+    padding: 15px;
+    margin: 15px;
+    width: 100%;
+    gap: 30px;
+    border: 1px solid black;
+}
+section img{
+    margin: 0 auto;
+    width: 70px;
 }
 
-section > img{
-    margin: 0 auto;
-    width: 100px;
+section h3, .pricing{
+    color: rgb(84, 131, 192);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .container{
+        flex-wrap: wrap;
+    }
 }
