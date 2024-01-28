@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(84, 131, 192);
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    gap: 20p;
+}
+
+section > img{
+    margin: 0 auto;
+    width: 100px;
+}
