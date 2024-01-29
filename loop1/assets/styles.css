@@ -11,12 +11,12 @@ body{
 
 .container{
     background-color: white;
-    width: 80%;
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -25,19 +25,40 @@ body{
 .container section{
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     width: 100%;
-    gap: 30px;
-    border: 1px solid black;
+    gap: 50px;
 }
+
+.container section:hover{
+    background: rgba(216, 216, 216, 0.438);
+    cursor: pointer;
+}
+
 section img{
     margin: 0 auto;
-    width: 70px;
+    width: 90px;
+}
+
+section .pricing{
+    font-size: 2rem;
+}
+
+section .pricing sup{
+    font-size: 1rem;
+}
+
+section p{
+    font-size: 1.3rem;
 }
 
 section h3, .pricing{
     color: rgb(84, 131, 192);
+}
+
+section h3{
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
