@@ -21,3 +21,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+}
+
+section img{
+    width: 60px;
+}
