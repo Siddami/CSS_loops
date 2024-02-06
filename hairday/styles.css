@@ -6,26 +6,113 @@
 body{
     background: rgb(228,204,211);
     background: radial-gradient(circle, rgba(228,204,211,0.9822303921568627) 0%, rgba(157,87,121,1) 98%);
-    margin: 2rem;
     font-family: 'Cormorant', serif;
     font-size: 2rem;
 }
 
+main{
+    margin: 2rem;
+    color: #642e56;
+}
 
 header > img{
     display: block;
-    width: 20rem;
+    width: 50rem;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
 }
 
 nav{
     display: flex;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
-    padding: 5px;
 }
 
 nav > span{
+    margin: 1rem;
+    color: white;
+    text-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.6);
+    font-weight: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+nav > span:hover{
+    cursor: pointer;
+    transform: translate3d(10);
+    transition: 2s;
+    color: #642e56;
+    background-color: #ffffff;
+}
+
+#intro{
+    background-color: #ffffff38;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+#intro img{
+    width: 40rem;
+    display: block;
+    border-radius: 1rem;
+}
+
+#intro .text{
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.text h1{
+    text-transform: uppercase;
+}
+
+.text p{
+    margin-block: 1rem;
+}
+
+#grids{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+#grids > section{
     flex: 1;
+    background-color:  #ffffff38;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#grids > h3{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d0f4132;
+    padding: 2rem;
+}
+
+footer > div{
+    flex: 1;
+    color:#ffffff
+}
+
+#footer-img img{
+    width: 20rem;
+}
+
+#footer-word{
+    display: flex;
 }
