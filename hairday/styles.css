@@ -9,6 +9,7 @@ body{
     font-family: 'Cormorant', serif;
     font-size: 1.5rem;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -79,6 +80,7 @@ main{
 
 .text h1{
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 .text p{
@@ -108,7 +110,7 @@ main{
     cursor: pointer;
 }
 
-#products > h3{
+#products >section h3{
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
@@ -149,22 +151,47 @@ footer > div{
 
 /*** MEDIA QUERIES ***/
 
-@media screen and (min-width: 320px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
     header > img{
-        width: 10rem;
+        width: 20rem;
     }    
 
     nav{
         display: block;
         padding: 1rem;
+        margin: 0 auto;
+        text-align: center;
     }
 
     nav > span a{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        display: block;
     }
 
 
     #info img{
         display: none;
+    }
+
+    #info .text{
+        font-size: 1rem;
+    }
+
+    #products{
+        display: block;
+    }
+
+    #products section{
+        margin-block: 2rem;
+        font-size: 1rem;
+    }
+
+    footer{
+        display: block;
+    }
+
+    footer div{
+        margin-block: 1rem;
+        font-size: 1rem;
     }
 }
