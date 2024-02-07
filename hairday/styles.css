@@ -38,7 +38,7 @@ a{
 nav > span a{
     margin: 1rem;
     color: white;
-    text-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.6);
+    text-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.245);
     font-weight: 3rem;
     padding: 1rem;
     font-size: 1.5rem;
@@ -108,6 +108,7 @@ main{
     transform: scale(1.1);
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
+    font-weight: bold;
 }
 
 #products >section h3{
@@ -119,7 +120,7 @@ main{
 
 footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #6d0f4132;
     padding: 2rem;
@@ -133,19 +134,12 @@ footer > div{
 }
 
 #footer-img img{
-    width: 15rem;
+    width: 12rem;
 }
 
 #footer-word{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact{
-    display: flex;
-    gap: 2rem;
-    
+    text-align: right;
+    font-weight: bold;
 }
 
 
