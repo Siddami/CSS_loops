@@ -16,7 +16,6 @@ body{
     background-color: white;
     position: absolute;
     width:400px;
-    height: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,9 +25,47 @@ section{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 5px;
 }
 
 section img{
     width: 60px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.mastercard div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cards{
+    border-top: 0.1rem solid #848080e7 ;
+    padding: 1rem;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.mastercard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mastercard #check{
+    width: 2rem;
+}
+
+.btn{
+    background-color: #4d68c9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.btn img{
+    width: 2rem;
 }
