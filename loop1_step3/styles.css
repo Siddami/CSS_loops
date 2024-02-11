@@ -17,6 +17,7 @@ body{
     transform: translate(-50%, -50%);
 }
 header{
+    padding-block: 2.5rem;
     padding: 2rem;
 }
 
@@ -34,6 +35,18 @@ header{
 
 header p {
     color: rgb(153, 150, 150);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.flex p{
+    font-weight: bold;
+    /* text-transform: uppercase; */
 }
 
 #total{
