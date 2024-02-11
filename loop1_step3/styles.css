@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #42bb8f;
+}
+
 #container{
-    width: 25rem;
+    background-color: #ffffff;
+    width: 30rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #total{
@@ -20,11 +31,11 @@
 }
 
 #bicycle{
-    width: 25rem;
+    width: 30rem;
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
     bottom: 0;
-    transform: translateY(50%);
+    transform: translateY(25%);
 }
