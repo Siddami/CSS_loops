@@ -16,12 +16,24 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+header{
+    padding: 2rem;
+}
 
 #nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#nav h2{
+    font-weight: 950;
+    text-align: center;
+}
+
+header p {
+    color: rgb(153, 150, 150);
 }
 
 #total{
