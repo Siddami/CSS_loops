@@ -12,7 +12,7 @@ body{
 #container{
     background-color: #ffffff;
     height: 35rem;
-    width: 45rem;
+    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,6 +40,10 @@ header{
     border: 0.1rem solid #c2c3c5bf;
     border-radius: 50%;
     padding: 0.4rem;
+}
+
+#nav img:hover{
+    box-shadow: ;
 }
 
 header p {
@@ -73,4 +77,8 @@ header p {
     z-index: -1;
     bottom: 0;
     transform: translateY(-10%);
+}
+
+@media screen and (max-width: 990px){
+
 }
