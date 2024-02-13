@@ -43,7 +43,7 @@ header{
 }
 
 #nav img:hover{
-    box-shadow: ;
+    box-shadow: 1px 1px 5px 0px rgba(99, 131, 200, 0.75);
 }
 
 header p {
